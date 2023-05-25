@@ -8,3 +8,6 @@ export function getTreeData(): TreeDataItem[] {
       nestedTreeData.filter((i) => i.parentId === item.id).length > 0,
   }));
 }
+
+console.log(nestedTreeData);
+console.log(getTreeData());
